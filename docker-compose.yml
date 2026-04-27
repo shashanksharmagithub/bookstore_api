@@ -1,0 +1,6 @@
+services:
+  bookstore_api_cont:
+    build: .
+    container_name: bookstore_api_cont
+    ports:
+      - "8000:8000"
